@@ -7,13 +7,19 @@
 
     <!-- link -->
     <link rel="stylesheet" href="assets/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <main>
       <div class="calc">
         <div class="calc-row-resultado">
-          <input type="text" id="text_area" />
           <p id="res"></p>
+          <input type="text" id="text_area" />
         </div>
         <div class="calc-button">
           <button id="calc_button_limpar">C</button>
@@ -61,7 +67,7 @@
           <button class="button-number">9</button>
         </div>
         <div class="calc-button">
-          <button class="" style="background-color: transparent"></button>
+          <button class="calc-button-sinal" id="calc_button_apagar">A</button>
         </div>
         <div class="calc-button">
           <button class="button-number">0</button>
